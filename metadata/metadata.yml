@@ -1,0 +1,34 @@
+metadata_version: 1
+name: 'AcoRec: Diverse but relevant recommendations with Continuous Ant Colony Optimization'
+description: This paper introduces a novel method called AcoRec, which employs an
+  enhanced version of Continuous Ant Colony Optimization for hyper-parameter adjustment
+  and integrates a non-deterministic model to generate diverse recommendation lists
+  for cold-start-user and long-tail item recommendations by leveraging implicit data
+  from collaborative filtering techniques. Continuous Ant Colony Optimization is revisited
+  with the convenience and flexibility of deep-learning solid methods and extended
+  within the AcoRec model. The approach computes stochastic variations of item probability
+  values based on the initial predictions derived from a selected item similarity
+  model. The structure of our model enables efficient handling of high-dimensional
+  data while maintaining an effective balance between diversity and high recall, leading
+  to recommendation lists that are both varied and highly relevant to user tastes.
+  Our results demonstrate that AcoRec outperforms existing state-of-the-art methods
+  and selected base similarity models across various evaluation scenarios using well-known
+  evaluation metrics and popular datasets such as MovieLens, Pinterest, and Netflix
+  in the top-N recommendation list manner.
+tags:
+- Ant Colony Optimization
+- continuous optimization
+- Recommender system
+- Collaborative Filtering
+- Cold-start
+- Top-N Recommendation
+authors:
+- name: Hakan YILMAZER
+  affiliations:
+  - name: IT Office, Çukurova University
+- name: Selma Ayşe Özel
+  affiliations:
+  - name: Department of Computer Engineering, Cukurova University
+corresponding_contributor:
+  name: Hakan YILMAZER
+  email: yilmazerhakan@gmail.com

@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+set -ex
+
+# This is the master script for the capsule. When you click "Reproducible Run", the code in this file will execute.
+jupyter nbconvert \
+	--to 'html' \
+	--ExecutePreprocessor.allow_errors=True \
+	--ExecutePreprocessor.timeout=-1 \
+	--FilesWriter.build_directory=../results \
+	--execute cold_start_movielens.ipynb
+
+# The previous version of this file was commented-out and follows below:
+#
+# notebooks=("cold_start_movielens.ipynb" "cold_start_netflix.ipynb" "cold_start_pinterest.ipynb" "long_tail_movielens.ipynb" "long_tail_netflix.ipynb" "long_tail_pinterest.ipynb")
+# 
+# for notebook in "${notebooks[@]}"
+# do
+#     jupyter nbconvert \
+# 	    --to 'html' \
+# 	    --ExecutePreprocessor.allow_errors=True \
+# 	    --ExecutePreprocessor.timeout=-1 \
+# 	    --FilesWriter.build_directory=../results \
+# 	    --execute "$notebook"
+# done
