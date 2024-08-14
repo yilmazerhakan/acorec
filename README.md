@@ -8,4 +8,4 @@ This paper introduces a novel method called AcoRec, which employs an enhanced ve
 
 # Reproduce
 
-This [Code Ocean Capsule]([https://codeocean.com](https://codeocean.com/capsule/4724589/tree/v2) will allow you to reproduce the results published by the author on your local machine.
+This [Code Ocean Capsule]([https://codeocean.com/capsule/4724589/tree/v2]) will allow you to reproduce the results published by the author on your local machine.
